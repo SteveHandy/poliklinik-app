@@ -5,6 +5,9 @@
 
         <h2 class="text-2xl font-bold text-slate-800">
             Jadwal Periksa
+            <span class="text-sm font-normal text-slate-800">
+                Waktu tidak sesuai? Pastikan timezone menjadi "Asia/Jakarta"
+            </span>
         </h2>
 
         <a href="{{ route('jadwal-periksa.create') }}"
